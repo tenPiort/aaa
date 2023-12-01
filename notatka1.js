@@ -650,7 +650,7 @@
             // filter by date
             attack_infos = attack_infos.filter(x => x.battle_time.getTime() + Settings.attack_info_lifetime > Date.now());
             let attack_infos_text = attack_infos.map(x => NotesScript.generate_attack_info(x)).join('\n');
-            let new_note = `${NotesScript.generate_village_info()}\n\n${attack_infos_text}\n<<<[b][size=9][color=#fa0fc0]HermitowskieNotatki <3<3<3[/color][/size][/b]>>>${user_notes}`;
+            let new_note = `${NotesScript.generate_village_info()}\n\n${attack_infos_text}\n<<<[b][size=9][color=#fa0fc0]Raporcik od tenPiotrek[/color][/size][/b]>>>${user_notes}`;
             return new_note;
         },
         get_attack_infos: function (old_notes) {
