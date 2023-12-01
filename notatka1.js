@@ -1,8 +1,3 @@
-/**
- * Adding note to the village info from report and scrapping some usefull informations
- * Created by: Hermitowski
- */
-
 (async function (TribalWars) {
     let TechnologyEnum = {
         TEN_LEVELS: '0',
